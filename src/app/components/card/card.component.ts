@@ -14,4 +14,6 @@ export class CardComponent {
   gameType:string = "XPTO | PS4"
   @Input()
   gamePrice:string = "R$ 399,90"
+  @Input()
+  Id:string="0"
 }

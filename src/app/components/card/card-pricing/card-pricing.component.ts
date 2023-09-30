@@ -12,4 +12,6 @@ export class CardPricingComponent {
 
   @Input()
   gamePrice:string = "R$ 399,90"
+
+  
 }

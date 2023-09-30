@@ -9,6 +9,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { ContentComponent } from './pages/content/content.component';
+import { GameDescriptionComponent } from './components/game-description/game-description.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContentComponent } from './pages/content/content.component';
     MenuBarComponent,
     CardLabelComponent,
     CardPricingComponent,
-    ContentComponent
+    ContentComponent,
+    GameDescriptionComponent
   ],
   imports: [
     BrowserModule,
